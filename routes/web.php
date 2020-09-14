@@ -28,6 +28,12 @@ Route::get('/contact', function () {
 
 
 
+Route::get('/product', function () {
+    return view('product');
+});
+
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
